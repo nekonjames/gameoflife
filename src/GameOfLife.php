@@ -1,7 +1,7 @@
 <?php
 include 'Life.php';
 
-$life = new Life(25, 25);
+$life = new Life(25, 10);
 $life->createBoundary();
 
 for($i = 0; $i < 10; $i++) {
